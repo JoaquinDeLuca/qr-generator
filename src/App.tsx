@@ -7,7 +7,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<GeneratorQR />} />
-        <Route path="qrscan" element={<QrScan />} />
+        <Route path="/qrscan" element={<QrScan />} />
       </Routes>
     </>
   );
