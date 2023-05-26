@@ -1,7 +1,6 @@
 import { ChangeEvent, useState } from "react";
 import QRCode from "react-qr-code";
 import React from "../assets/react.svg";
-import Check from "../assets/check.svg";
 
 function generatorQr() {
   const [transformToQr, setTransformToQr] = useState<string>("Hola");
@@ -54,7 +53,7 @@ function generatorQr() {
             onClick={handleClick}
             className="bg-bluebtn px-4 py-2 rounded-lg text-white"
           >
-            {pressButtom ? <img src={Check} alt="check" /> : "Copiar Link"}
+            {pressButtom ? "¡Copiado! ✓" : "Copiar Link"}
           </button>
         </div>
       </div>
