@@ -1,7 +1,6 @@
 # Generador de QR 
 
-![]()
-
+![generadorQR](https://github.com/JoaquinDeLuca/qr-generator/assets/110680187/e303a4c2-f317-4718-b58e-9ed35eff7bc2)
 
 ## Link 🔗
 - https://generador-qr-gamma.vercel.app/
